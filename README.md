@@ -1,36 +1,26 @@
- Churn Prediction System
-A Machine Learning project focused on predicting customer churn using historical data and delivering insights via Power BI.
+Churn Prediction System
+This project uses machine learning to predict customer churn based on historical customer data. Built with Python and visualized using Power BI, it leverages libraries like Scikit-learn, XGBoost, pandas, and matplotlib.
 
-🔍 About the Project
+How to Run
+Install the required libraries:
+Make sure you have Python installed. Then, install the necessary libraries by running:
 
-Built and evaluated classification models (Logistic Regression, Random Forest, XGBoost) to predict customer churn
+bash
+Copy
+Edit
+pip install scikit-learn xgboost pandas matplotlib
+Prepare your data:
+Place your customer data CSV file (customer_data.csv) in the same directory as the Python script.
 
-Predicted churn probabilities for each customer based on their data
+Run the Python script:
+Execute the script to generate churn predictions:
 
-Visualized insights and churn trends using a Power BI dashboard
+bash
+Copy
+Edit
+python churn_prediction.py
+Open the Power BI dashboard:
+Open the churn_prediction_dashboard.pbix file in Power BI to view the churn insights and visualizations.
 
-Analyzed risk factors and churn metrics for business decision-making
-
-🛠️ Tools & Technologies
-
-Python, Pandas, Scikit-learn, XGBoost
-
-Matplotlib, Power BI
-
-Jupyter/VSCode (for analysis and development)
-
-📁 Files
-
-churn_prediction.py – Python script for building and evaluating churn prediction models
-
-customer_data.csv – Dataset containing customer information used for prediction
-
-
-📊 Dashboard Highlights
-
-Churn rate and prediction KPIs
-
-Churn by customer demographics, contract type, and payment method
-
-Interactive filters by gender, contract, and other customer attributes
-
+About
+This system helps businesses predict customer churn using machine learning models like Logistic Regression, Random Forest, and XGBoost, with insights visualized in Power BI.
